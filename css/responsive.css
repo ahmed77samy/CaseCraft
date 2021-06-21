@@ -1,0 +1,85 @@
+                                                    /* strat responsive */
+
+
+@media (max-width:767px) /* extra small screen */ {
+    ul.navbar
+    {
+        display: none;
+        width: 100%
+    }
+
+    ul.navbar li 
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .mediaa .text
+    {
+        padding: 30px 20px 0;
+        text-align: center;
+    }
+
+    .mediaa .text button
+    {
+        margin: 0;
+    }
+
+    .support .content
+    {
+        width: 100%
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) /* small screen */ {
+    ul.navbar
+    {
+        display: none;
+        width: 100%
+    }
+
+    ul.navbar li 
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .mediaa .text
+    {
+        padding: 30px 20px 0;
+        text-align: center;
+    }
+
+    .mediaa .text button
+    {
+        margin: 10px;
+    }
+
+    .support .content
+    {
+        width: 100%
+    }
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px) /* medium screen */ {
+    ul.navbar
+    {
+        display: block !important;
+    }
+}
+
+
+
+@media (min-width:1200px) /* large screen */ {
+    ul.navbar
+    {
+        display: block !important;
+    }
+}
+
+
+                                                    /* end responsive */

@@ -1,0 +1,512 @@
+                                                                                    /* navbar */
+nav
+{
+    background-color: var(--color-two);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .navbar-brand
+{
+    color: var(--color-three);
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    transition: .5s
+}
+
+nav .navbar-brand .one
+{
+    font-weight: 100
+}
+
+nav .navbar-brand .two
+{
+    font-weight: 900
+}
+
+nav .navbar-brand:focus,
+nav .navbar-brand:hover
+{
+    color: var(--color-one);
+}
+
+section
+{
+    display: inline-block;
+}
+
+section .svg-inline--fa.media
+{
+    color: var(--color-three);
+    margin: 10px 10px 0;
+    cursor: pointer;
+    transition: .5s;
+}
+
+section .svg-inline--fa.media:hover
+{
+    color: var(--color-one)
+}
+
+nav button.btn
+{
+    background-color: var(--color-two);
+    margin: -10px 0 0;
+    color: var(--color-three);
+    width: 170px;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+nav button.btn:active,
+nav button.btn:focus
+{
+    outline: none;
+    border: none;
+    color: inherit
+}
+
+nav button.btn:hover
+{
+    background-color: var(--color-three);
+    color: var(--color-two);
+}
+
+nav button .svg-inline--fa
+{
+    margin-right: 15px
+}
+
+nav .menu
+{
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+ul.navbar
+{
+    margin: 0;
+}
+
+ul.navbar li
+{
+    padding: 0 10px;
+    line-height: 5rem;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    text-transform: uppercase
+}
+
+ul.navbar li a
+{
+    color: unset;
+}
+
+ul.navbar li a:hover,
+ul.navbar li a:focus
+{
+    text-decoration: none
+}
+
+ul.navbar li.active,
+ul.navbar li:hover
+{
+    background: var(--color-one);
+    color: var(--color-three)
+}
+
+                                                                                    /* navbar */
+
+                                                                                    /* slider */
+
+.slider
+{
+    background: url("../photo/2951388.jpg") no-repeat 80%;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+.slider .over-ride
+{
+    background: rgb(67, 36, 34,.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider .text
+{
+    background: rgb(67, 36, 34,.2);
+    color: var(--color-three);
+    margin: 100px;
+    padding: 20px 0;
+    width:450px;
+    padding: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.slider .text .one
+{
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.slider .text .scor
+{
+    font-weight: 100;
+    font-size: 75px;
+    color: var(--color-two);
+}
+
+.slider .text .two,
+.slider .text .four
+{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.slider .text .three
+{
+    font-weight: 100;
+    color: var(--color-two)
+}
+
+.slider .text .five
+{
+    font-size: 20px;
+}
+
+                                                                                    /* slider */
+
+                                                                                    /* layout */
+.layout
+{
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+}
+
+.layout h2
+{
+    margin: 50px 0 0;
+    font-size: 50px;
+}
+
+.layout h2 span
+{
+    font-size: 90px;
+}
+
+.layout p
+{
+    margin-bottom: 40px;
+    color: #a1a2a9;
+}
+
+.layout .lay
+{
+    box-shadow: 2px 2px 10px 1px silver, -2px -2px 10px 1px silver;
+    margin-bottom: 40px
+}
+
+.layout .lay-lg
+{
+    padding: 60px;
+    background: url('../photo/images (7).jpg') no-repeat center;
+    background-size: cover;
+    margin-bottom: 60px
+}
+
+.layout .lay,
+.layout .lay-lg
+{
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px 1px silver, -2px -2px 10px 1px silver;
+    transition: .5s;
+    width: 100%
+}
+
+.layout .lay:hover,
+.layout .lay-lg:hover
+{
+    transform: translate(0,-10px)
+}
+
+.layout .lay img
+{
+    cursor: pointer;
+    width: 100%;
+}
+
+.layout .lay p
+{
+    margin-top: 16px;
+    color: #a1a2a9;
+}
+
+.layout .lay-lg .first
+{
+    color: var(--color-one);
+    margin-bottom: 0;
+    font-size: 22px
+}
+
+.layout .lay-lg h3
+{
+    font-size: 37px;
+    margin: 20px 0 40px
+}
+
+                                                                                    /* layout */
+
+
+                                                                                    /* function */
+.function
+{
+    background: #f5f6fa;
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+}
+
+.function h2
+{
+    font-size: 40px;
+    margin: 60px auto 60px
+}
+
+.function .fun
+{
+    margin-bottom: 40px;
+    height: 300px;
+    padding: 20px 0;
+}
+
+.function .fun .count
+{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    color: var(--color-two);
+    border-radius: 50%;
+    transition: .5s;
+    padding-top: 17px;
+}
+
+.function .fun:hover .count
+{
+    background: var(--color-one);
+    color: var(--color-three)
+}
+
+.function .fun h3
+{
+    margin-top: 30px
+}
+
+.function .fun p
+{
+    margin: 15px 40px;
+    color: #a1a2a9;
+}
+                                                                                    /* function */
+
+                                                                                    /* mediaa */
+
+.mediaa
+{
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+    padding: 70px 0 0;
+}
+
+.mediaa .text
+{
+    padding: 40px 90px 0 50px;
+}
+
+.mediaa .text h2
+{
+    font-size: 35px;
+}
+
+.mediaa .text h2+p
+{
+    margin: 30px 0;
+    color: #a1a2a9
+}
+
+.mediaa .text .left,
+.mediaa .text .right
+{
+    width: 40%;
+    margin: 20px
+}
+
+.mediaa .text .svg-inline--fa.fa-w-16
+{
+    color: var(--color-one);
+    margin-right: 15px
+}
+
+.mediaa .text h3
+{
+    margin: 0 0 20px;
+}
+
+.mediaa .text h3+p
+{
+    color: #a1a2a9
+}
+
+.mediaa .text button
+{
+    margin: 20px;
+}
+
+.mediaa .text button.custom-btn:last-of-type p.up
+{
+    background: #fff;
+    color: #000;
+    border: 1px solid var(--color-one);
+    border-radius: 5px;
+}
+
+.mediaa .text button.custom-btn:last-of-type p.down
+{
+    background: var(--color-two)
+}
+
+                                                                                    /* mediaa */
+
+                                                                                    /* support */
+.support
+{
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+    margin-top: 50px;
+    background: url("../photo/ss.png") no-repeat -40% ;
+    background-size: cover;
+}
+
+.support .content
+{
+    width: 55%;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.support h2
+{
+    margin: 100px 0 20px
+}
+
+.support p
+{
+    color: #a1a2a9;
+    margin-bottom: 40px
+}
+
+.support hr
+{
+    border-top: 1px solid #eaeaea;
+}
+
+.support .item
+{
+    padding-left: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.support .item h4 span
+{
+    background: var(--color-one);
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+.support .item.active h4
+{
+    color: var(--color-one);
+}
+
+.support .item p
+{
+    display: none;
+}
+
+                                                                                /* support */
+                                                                                    /* footer */
+footer
+{
+    background: var(--color-two);
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 70px;
+    position: relative
+}
+
+footer .h1
+{
+    margin: 80px 0 40px
+}
+
+footer .h1 .s-1
+{
+    font-weight: lighter;
+}
+
+footer .h1 .s-2
+{
+    font-weight: bolder
+}
+
+footer p
+{
+    margin-bottom: 40px
+}
+
+footer button.custom-btn
+{
+    margin-bottom: 40px
+}
+footer button.custom-btn p.up
+{
+    background: var(--color-one)
+}
+
+footer button.custom-btn p.down
+{
+    background: var(--color-three);
+    color: var(--color-two)
+}
+
+footer .copy-right
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--color-three);
+    color: var(--color-two);
+    padding: 20px 0;
+}
+
+footer .copy-right p
+{
+    margin: 0
+}
+                                                                                    /* footer */
